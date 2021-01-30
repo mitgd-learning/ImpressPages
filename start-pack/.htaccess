@@ -17,7 +17,7 @@
 # Options -MultiViews
 
 #Modified rules for 1and1 hosting
-#AddHandler x-mapp-php5.4 .php3 .php4 .php .phtml
+#AddHandler x-mapp-php5.4 .php .phtml
 #RewriteEngine on
 #RewriteBase /
 #RewriteCond %{REQUEST_FILENAME} !-f
@@ -30,4 +30,3 @@
 #php_value upload_max_filesize 1000M
 #php_value post_max_size 1000M
 #php_value memory_limit 100M
-
